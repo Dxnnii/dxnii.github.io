@@ -5,59 +5,63 @@ Body  {  background-color:thistle;  }
 P  {  font-size:20px;  color:mediumblue;  }
 </style>
 </head>
+<title>Clicker Tycoon</title>
+<h1  style=”font-size:40px;color:black;”>Clicker!</h1>
+<p>Welcome to Clicker! This is a tycoon in the works.</p>
+<p>Here is where all the updates made to the game shall be shown, such as, the removal of items/areas and the addition of unique mechanics<p>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: 50;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <img src="D:\websiteassignment\redbutton.PNG" alt="A red button" class="image">
+  <div class="overlay">
+    <div class="text">A red button</div>
+  </div>
+</div>
+
 <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <title>Clicker Tycoon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-    .container {
-      position: relative;
-      width: 50%;
-    }
-
-    .image {
-      display: block;
-      width: 50%;
-      height: 50;
-    }
-
-    .overlay {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 100%;
-      width: 50%;
-      opacity: 0;
-      transition: .5s ease;
-      background-color: #008CBA;
-    }
-
-    .container:hover .overlay {
-      opacity: 1;
-    }
-
-    .text {
-      color: white;
-      font-size: 20px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-    </style>
-    </head>
-    <body>
-
-    <div class="container">
-      <img src="D:\websiteassignment\redbutton.PNG" alt="A red button" class="image">
-      <div class="overlay">
-        <div class="text">A red button</div>
-      </div>
-    </div>
       <img src="D:\websiteassignment\greenbutton.PNG" alt="A green button" width="200" height="200"><br>
       <img src="D:\websiteassignment\redcube.PNG" alt="A red cube, spawned from pressing the red button" width="200" height="200">
       <img src="D:\websiteassignment\greencube.PNG" alt="A green cube, spawned from pressing the button" width="200" height="200"><br>
